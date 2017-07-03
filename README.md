@@ -7,4 +7,4 @@ Only ContentProvider, ContractClass and Database levels are implemented in this 
 
 Following architecture schema illustrates the flow of data in a system.
 
-![flow of data image](/blob/master/content-provider-interaction.png?raw=true)
+![flow of data image](/content-provider-interaction.png?raw=true)
