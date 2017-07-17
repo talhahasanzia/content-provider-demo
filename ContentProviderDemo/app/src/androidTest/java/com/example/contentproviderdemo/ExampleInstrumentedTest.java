@@ -1,4 +1,4 @@
-package com.mujadidia.contentproviderdemo;
+package com.example.contentproviderdemo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -23,6 +23,6 @@ public class ExampleInstrumentedTest
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals( "com.mujadidia.contentproviderdemo", appContext.getPackageName() );
+        assertEquals( "com.example.contentproviderdemo", appContext.getPackageName() );
     }
 }

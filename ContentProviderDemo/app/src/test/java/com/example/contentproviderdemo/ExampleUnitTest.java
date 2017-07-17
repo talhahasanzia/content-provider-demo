@@ -1,4 +1,4 @@
-package com.mujadidia.contentproviderdemo;
+package com.example.contentproviderdemo;
 
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.mujadidia.contentproviderdemo">
+          package="com.example.contentproviderdemo">
 
     <uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>
 
@@ -12,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <provider
-            android:authorities="com.mujadidia.contentproviderdemo"
-            android:name=".DataProvider"/>
+            android:authorities="com.example.contentproviderdemo"
+            android:name="com.example.contentproviderdemo.DataProvider"/>
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.contentproviderdemo.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
