@@ -1,4 +1,4 @@
-package com.mujadidia.contentproviderdemo;
+package com.example.contentproviderdemo;
 
 import android.content.ContentUris;
 import android.content.UriMatcher;
@@ -26,7 +26,7 @@ public class DataContract
 
 
 
-    public static final String CONTENT_AUTHORITY = "com.mujadidia.contentproviderdemo";
+    public static final String CONTENT_AUTHORITY = "com.example.contentproviderdemo";
 
     // Use CONTENT_AUTHORITY to create the base of all URI's which apps will use to contact
     // the content provider.
